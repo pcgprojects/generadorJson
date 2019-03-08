@@ -48,7 +48,7 @@ public class Generador {
             System.out.println(post_id);
         }
 
-        Sqlite.connect();
+        System.out.println(Sqlite.existeDocumento(51541));
 //        
 //		JsonParser parser = new JsonParser();
 //		JsonObject json = (JsonObject) parser.parse(stringToParse);
