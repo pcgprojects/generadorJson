@@ -39,7 +39,7 @@ public class Sqlite {
 
 		return existe;
 	}
-
+//	http://www.sqlitetutorial.net/sqlite-java/insert/
 	public void insert(String name, double capacity) {
 		String sql = "INSERT INTO warehouses(name,capacity) VALUES(?,?)";
 
